@@ -1,10 +1,10 @@
 import React from 'react'
 import { StyledButton, StyledButtonWrapper } from './styled'
 
-const Button = ({ children, align }) => {
+const Button = ({ children, align, as }) => {
   return (
     <StyledButtonWrapper align={align}>
-        <StyledButton>
+        <StyledButton as={as}>
             {children}
         </StyledButton>
     </StyledButtonWrapper>
