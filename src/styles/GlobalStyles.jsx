@@ -28,6 +28,15 @@ const globalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
     }
+    .text-center {
+        text-align: center;
+    }
+    .text-left {
+        text-align: left;
+    }
+    .text-right {
+        text-align: right;
+    }
 `
 
 export default globalStyles
