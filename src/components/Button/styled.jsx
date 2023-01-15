@@ -11,6 +11,7 @@ export const StyledButton = styled.div`
     display: inline-block;
     padding: 0.85rem 2rem;
     transition: all .3s;
+    font-weight: bold;
     color: #fff;
     cursor: pointer;
     &:hover {
