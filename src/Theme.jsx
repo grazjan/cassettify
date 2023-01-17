@@ -14,7 +14,25 @@ const colors = {
 /* Typography */
 const typography = {
     fontFamily: "Roboto, sans-serif",
-    bodyFontSize: "16px"
+    bodyFontSize: "16px",
+    headlines: {
+        desktop: {
+            h1: "48px",
+            h2: "38px",
+            h3: "34px",
+            h4: "28px",
+            h5: "22px",
+            h6: "18px"
+        },
+        mobile: {
+            h1: "36px",
+            h2: "28px",
+            h3: "26px",
+            h4: "24px",
+            h5: "18px",
+            h6: "16px"
+        }
+    }
 }
 
 /* Container */
@@ -23,6 +41,7 @@ const container = {
     containerWidthMd: "800px",
     containerWidthSm: "600px"
 }
+
 
 /* Theme object */
 export const theme = {
