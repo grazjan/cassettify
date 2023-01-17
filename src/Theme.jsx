@@ -42,6 +42,13 @@ const container = {
     containerWidthSm: "600px"
 }
 
+/* Breakpoints */
+const breakpoint = {
+    mobile: 767,
+    tablet: 1023,
+    desktop: 1920,
+}
+
 
 /* Theme object */
 export const theme = {
@@ -53,6 +60,9 @@ export const theme = {
     },
     colors: {
         ...colors
+    },
+    breakpoint: {
+        ...breakpoint
     },
     cassette: {
         cassette_width: '600px',
