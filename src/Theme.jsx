@@ -8,6 +8,7 @@ const colors = {
     primary: "#1abc9c",
     secondary: "#2d3436",
     tertiary: "#ecf0f1",
+    textColor: "#2f3640",
     link: "rgba(255, 255, 255, 0.8)"
 }
 
@@ -49,6 +50,12 @@ const breakpoint = {
     desktop: 1920,
 }
 
+/* Shadows */
+const shadow = {
+    shadowPrimary: "5px 5px 14px -3px #000000",
+    shadowSecondary: "5px 5px 7px -3px rgba(0,0,0,0.8)"
+}
+
 
 /* Theme object */
 export const theme = {
@@ -63,6 +70,9 @@ export const theme = {
     },
     breakpoint: {
         ...breakpoint
+    },
+    shadow: {
+        ...shadow
     },
     cassette: {
         cassette_width: '600px',
